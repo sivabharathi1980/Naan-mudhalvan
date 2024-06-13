@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+university,Chrome 125.0.0.0,,,13-06-2024 14:36:20,13-06-2024 14:38:37,2m - 17.274s,FAILED
+,,,,,,,
+Test Cases/BAMU/Acedamic,Chrome 125.0.0.0,,,13-06-2024 14:36:20,13-06-2024 14:36:33,12.898s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,13-06-2024 14:36:20,13-06-2024 14:36:22,1.808s,PASSED
+"navigateToUrl(""http://bamu.ac.in/Academics.aspx"")",Chrome 125.0.0.0,,,13-06-2024 14:36:22,13-06-2024 14:36:29,6.949s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/h4_Faculty of Science and Technology""))",Chrome 125.0.0.0,,,13-06-2024 14:36:29,13-06-2024 14:36:30,0.549s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/h1_Academics""))",Chrome 125.0.0.0,,,13-06-2024 14:36:30,13-06-2024 14:36:30,0.305s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/img_IQAC (Cell)_imgG""))",Chrome 125.0.0.0,,,13-06-2024 14:36:30,13-06-2024 14:36:30,0.344s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/h5_Dharashiv Subcampus""))",Chrome 125.0.0.0,,,13-06-2024 14:36:30,13-06-2024 14:36:31,0.298s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/strong_Constituent Institute""))",Chrome 125.0.0.0,,,13-06-2024 14:36:31,13-06-2024 14:36:31,0.304s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/h4_Chairs""))",Chrome 125.0.0.0,,,13-06-2024 14:36:31,13-06-2024 14:36:31,0.349s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/h4_Faculty of Commerce and Management""))",Chrome 125.0.0.0,,,13-06-2024 14:36:31,13-06-2024 14:36:32,0.319s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/h5_Dharashiv Subcampus""))",Chrome 125.0.0.0,,,13-06-2024 14:36:32,13-06-2024 14:36:32,0.305s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/div_Faculty of Commerce and ManagementUnive_3f0aad""))",Chrome 125.0.0.0,,,13-06-2024 14:36:32,13-06-2024 14:36:32,0.306s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,13-06-2024 14:36:32,13-06-2024 14:36:33,0.761s,PASSED
+,,,,,,,
+Test Cases/BAMU/Examination,Chrome 125.0.0.0,,,13-06-2024 14:36:33,13-06-2024 14:36:58,24.628s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,13-06-2024 14:36:33,13-06-2024 14:36:34,0.807s,PASSED
+"navigateToUrl(""http://bamu.ac.in/"")",Chrome 125.0.0.0,,,13-06-2024 14:36:34,13-06-2024 14:36:42,8.548s,PASSED
+"click(findTestObject(""Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_Academics""))",Chrome 125.0.0.0,,,13-06-2024 14:36:42,13-06-2024 14:36:44,1.077s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/a_Online Links""))",Chrome 125.0.0.0,,,13-06-2024 14:36:44,13-06-2024 14:36:44,0.876s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Section/a_Academics""))",Chrome 125.0.0.0,,,13-06-2024 14:36:44,13-06-2024 14:36:45,0.813s,PASSED
+"click(findTestObject(""Object Repository/Page_Academics Section/a_About University""))",Chrome 125.0.0.0,,,13-06-2024 14:36:45,13-06-2024 14:36:46,0.933s,PASSED
+"click(findTestObject(""Object Repository/Page_About University/a_Contact""))",Chrome 125.0.0.0,,,13-06-2024 14:36:46,13-06-2024 14:36:48,1.549s,PASSED
+"click(findTestObject(""Object Repository/Page_Contact Information/a_N I R F""))",Chrome 125.0.0.0,,,13-06-2024 14:36:48,13-06-2024 14:36:49,0.980s,PASSED
+"click(findTestObject(""Object Repository/Page_NIRF  Data Capturing System Report/img""))",Chrome 125.0.0.0,,,13-06-2024 14:36:49,13-06-2024 14:36:49,0.342s,PASSED
+"click(findTestObject(""Object Repository/Page_NIRF  Data Capturing System Report/p_""))",Chrome 125.0.0.0,,,13-06-2024 14:36:49,13-06-2024 14:36:51,1.843s,PASSED
+"click(findTestObject(""Object Repository/Page_NIRF  Data Capturing System Report/img_1""))",Chrome 125.0.0.0,,,13-06-2024 14:36:51,13-06-2024 14:36:53,1.949s,PASSED
+"switchToWindowTitle(""NIRF : Data Capturing System Report"")",Chrome 125.0.0.0,,,13-06-2024 14:36:53,13-06-2024 14:36:53,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_NIRF  Data Capturing System Report/h4_For any feedback regarding NIRF""))",Chrome 125.0.0.0,,,13-06-2024 14:36:53,13-06-2024 14:36:53,0.366s,PASSED
+"click(findTestObject(""Object Repository/Page_NIRF  Data Capturing System Report/p_Please email at nirf.feedbackbamu.ac.in""))",Chrome 125.0.0.0,,,13-06-2024 14:36:53,13-06-2024 14:36:54,0.297s,PASSED
+"click(findTestObject(""Object Repository/Page_NIRF  Data Capturing System Report/span_2024 Dr. Babasaheb Ambedkar Marathwada_475171""))",Chrome 125.0.0.0,,,13-06-2024 14:36:54,13-06-2024 14:36:54,0.288s,PASSED
+"click(findTestObject(""Object Repository/Page_NIRF  Data Capturing System Report/a_Feedback""))",Chrome 125.0.0.0,,,13-06-2024 14:36:54,13-06-2024 14:36:54,0.557s,PASSED
+"click(findTestObject(""Object Repository/Page_Feedback/h2_Feedback Analysis (Academic year-wise)""))",Chrome 125.0.0.0,,,13-06-2024 14:36:54,13-06-2024 14:36:55,0.537s,PASSED
+"click(findTestObject(""Object Repository/Page_Feedback/td_Alumni Feedback collected analysed and A_740839""))",Chrome 125.0.0.0,,,13-06-2024 14:36:55,13-06-2024 14:36:55,0.285s,PASSED
+"click(findTestObject(""Object Repository/Page_Feedback/td_Student Feedback Action Taken""))",Chrome 125.0.0.0,,,13-06-2024 14:36:55,13-06-2024 14:36:56,0.287s,PASSED
+"click(findTestObject(""Object Repository/Page_Feedback/td_Student Feedback Analysed""))",Chrome 125.0.0.0,,,13-06-2024 14:36:56,13-06-2024 14:36:56,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_Feedback/td_Student Feedback Collected""))",Chrome 125.0.0.0,,,13-06-2024 14:36:56,13-06-2024 14:36:56,0.285s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,13-06-2024 14:36:56,13-06-2024 14:36:58,1.453s,PASSED
+,,,,,,,
+Test Cases/BAMU/home,Chrome 125.0.0.0,,,13-06-2024 14:37:02,13-06-2024 14:37:04,1.626s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,13-06-2024 14:37:02,13-06-2024 14:37:04,1.334s,PASSED
+acceptAlert(),Chrome 125.0.0.0,,,13-06-2024 14:37:04,13-06-2024 14:37:04,0.267s,FAILED
+,,,,,,,
+Test Cases/BAMU/Naac,Chrome 125.0.0.0,,,13-06-2024 14:38:02,13-06-2024 14:38:24,21.705s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,13-06-2024 14:38:02,13-06-2024 14:38:03,0.755s,PASSED
+"navigateToUrl(""http://bamu.ac.in/"")",Chrome 125.0.0.0,,,13-06-2024 14:38:03,13-06-2024 14:38:13,10.258s,PASSED
+"click(findTestObject(""Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_IQAC (Cell)""))",Chrome 125.0.0.0,,,13-06-2024 14:38:13,13-06-2024 14:38:19,5.974s,PASSED
+"click(findTestObject(""Object Repository/Page_Internal Quality Assurance Cell  Home/a_NAAC-2018""))",Chrome 125.0.0.0,,,13-06-2024 14:38:19,13-06-2024 14:38:20,0.934s,PASSED
+"click(findTestObject(""Object Repository/Page_NAAC-2018/h2_NAAC""))",Chrome 125.0.0.0,,,13-06-2024 14:38:20,13-06-2024 14:38:21,0.527s,PASSED
+"click(findTestObject(""Object Repository/Page_NAAC-2018/h1_NAAC (National Assessment and Accreditat_cef82c""))",Chrome 125.0.0.0,,,13-06-2024 14:38:21,13-06-2024 14:38:21,0.343s,PASSED
+"click(findTestObject(""Object Repository/Page_NAAC-2018/ul_Home                                    _3cfd05""))",Chrome 125.0.0.0,,,13-06-2024 14:38:21,13-06-2024 14:38:21,0.321s,PASSED
+"click(findTestObject(""Object Repository/Page_NAAC-2018/div_NAAC         Institutional Information _c50838""))",Chrome 125.0.0.0,,,13-06-2024 14:38:21,13-06-2024 14:38:22,0.319s,PASSED
+"click(findTestObject(""Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2002""))",Chrome 125.0.0.0,,,13-06-2024 14:38:22,13-06-2024 14:38:22,0.278s,PASSED
+"click(findTestObject(""Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2013""))",Chrome 125.0.0.0,,,13-06-2024 14:38:22,13-06-2024 14:38:22,0.270s,PASSED
+"click(findTestObject(""Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2019""))",Chrome 125.0.0.0,,,13-06-2024 14:38:22,13-06-2024 14:38:23,0.278s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,13-06-2024 14:38:23,13-06-2024 14:38:24,1.415s,PASSED
+acceptAlert(),Chrome 125.0.0.0,,,13-06-2024 14:38:24,13-06-2024 14:38:24,0.006s,FAILED
+,,,,,,,
+Test Cases/BAMU/Research,Chrome 125.0.0.0,,,13-06-2024 14:38:24,13-06-2024 14:38:37,13.138s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,13-06-2024 14:38:24,13-06-2024 14:38:25,0.942s,PASSED
+"navigateToUrl(""http://bamu.ac.in/Research.aspx"")",Chrome 125.0.0.0,,,13-06-2024 14:38:25,13-06-2024 14:38:31,6.223s,PASSED
+"click(findTestObject(""Object Repository/Page_Research  Dr. Babasaheb Ambedkar Marat_c7191c/a_About Research at BAMU""))",Chrome 125.0.0.0,,,13-06-2024 14:38:31,13-06-2024 14:38:32,1.094s,PASSED
+"click(findTestObject(""Object Repository/Page_Research at BAMU/a_Prominent Areas of Research""))",Chrome 125.0.0.0,,,13-06-2024 14:38:32,13-06-2024 14:38:33,0.834s,PASSED
+"click(findTestObject(""Object Repository/Page_Prominent Areas of Research/a_Research Policy and Objectives""))",Chrome 125.0.0.0,,,13-06-2024 14:38:33,13-06-2024 14:38:34,0.909s,PASSED
+"click(findTestObject(""Object Repository/Page_Research Policy and Objectives/span_Research Policy and Objectives""))",Chrome 125.0.0.0,,,13-06-2024 14:38:34,13-06-2024 14:38:35,0.514s,PASSED
+"click(findTestObject(""Object Repository/Page_Research Policy and Objectives/strong_For StudentsResearchers""))",Chrome 125.0.0.0,,,13-06-2024 14:38:35,13-06-2024 14:38:35,0.342s,PASSED
+"click(findTestObject(""Object Repository/Page_Research Policy and Objectives/a_Excellence""))",Chrome 125.0.0.0,,,13-06-2024 14:38:35,13-06-2024 14:38:35,0.360s,PASSED
+"click(findTestObject(""Object Repository/Page_Research Policy and Objectives/a_Research Excellence""))",Chrome 125.0.0.0,,,13-06-2024 14:38:35,13-06-2024 14:38:36,0.843s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,13-06-2024 14:38:36,13-06-2024 14:38:37,0.971s,PASSED

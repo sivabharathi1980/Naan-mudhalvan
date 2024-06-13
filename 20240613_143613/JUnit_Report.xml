@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="university" time="137.274" tests="5" failures="2" errors="0">
+   <testsuite name="university" tests="5" failures="2" errors="0" time="137.274" skipped="0" timestamp="13-06-2024T14:36:20" hostname="HP - 20.23.0.40" id="Test Suites/Bamu/university">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269619085.png, C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269619298.png, C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269620949.png, C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269621104.png, C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269622441.png, C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269622540.png, C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269624026.png, C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269624146.png"/>
+         <property name="hostName" value="HP - 20.23.0.40"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="20.23.0.40"/>
+         <property name="sessionId" value="95e702f120d2813fc069adb000f69a2c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/BAMU/Acedamic" time="12.898" classname="Test Cases/BAMU/Acedamic" status="PASSED">
+         <system-out><![CDATA[13-06-2024T14:36:20 - [TEST_CASE][PASSED] - Test Cases/BAMU/Acedamic: Test Cases/BAMU/Acedamic
+
+13-06-2024T14:36:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-06-2024T14:36:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-06-2024T14:36:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-06-2024T14:36:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-06-2024T14:36:22 - [TEST_STEP][PASSED] - navigateToUrl("http://bamu.ac.in/Academics.aspx"): Navigate to 'http://bamu.ac.in/Academics.aspx' successfully
+
+13-06-2024T14:36:29 - [MESSAGE][PASSED] - Navigate to 'http://bamu.ac.in/Academics.aspx' successfully
+
+13-06-2024T14:36:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/h4_Faculty of Science and Technology")): Object: 'Object Repository/Page_Academics Section/h4_Faculty of Science and Technology' is clicked on
+
+13-06-2024T14:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/h4_Faculty of Science and Technology' is clicked on
+
+13-06-2024T14:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/h1_Academics")): Object: 'Object Repository/Page_Academics Section/h1_Academics' is clicked on
+
+13-06-2024T14:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/h1_Academics' is clicked on
+
+13-06-2024T14:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/img_IQAC (Cell)_imgG")): Object: 'Object Repository/Page_Academics Section/img_IQAC (Cell)_imgG' is clicked on
+
+13-06-2024T14:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/img_IQAC (Cell)_imgG' is clicked on
+
+13-06-2024T14:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/h5_Dharashiv Subcampus")): Object: 'Object Repository/Page_Academics Section/h5_Dharashiv Subcampus' is clicked on
+
+13-06-2024T14:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/h5_Dharashiv Subcampus' is clicked on
+
+13-06-2024T14:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/strong_Constituent Institute")): Object: 'Object Repository/Page_Academics Section/strong_Constituent Institute' is clicked on
+
+13-06-2024T14:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/strong_Constituent Institute' is clicked on
+
+13-06-2024T14:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/h4_Chairs")): Object: 'Object Repository/Page_Academics Section/h4_Chairs' is clicked on
+
+13-06-2024T14:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/h4_Chairs' is clicked on
+
+13-06-2024T14:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/h4_Faculty of Commerce and Management")): Object: 'Object Repository/Page_Academics Section/h4_Faculty of Commerce and Management' is clicked on
+
+13-06-2024T14:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/h4_Faculty of Commerce and Management' is clicked on
+
+13-06-2024T14:36:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/h5_Dharashiv Subcampus")): Object: 'Object Repository/Page_Academics Section/h5_Dharashiv Subcampus' is clicked on
+
+13-06-2024T14:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/h5_Dharashiv Subcampus' is clicked on
+
+13-06-2024T14:36:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/div_Faculty of Commerce and ManagementUnive_3f0aad")): Object: 'Object Repository/Page_Academics Section/div_Faculty of Commerce and ManagementUnive_3f0aad' is clicked on
+
+13-06-2024T14:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/div_Faculty of Commerce and ManagementUnive_3f0aad' is clicked on
+
+13-06-2024T14:36:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-06-2024T14:36:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BAMU/Examination" time="24.628" classname="Test Cases/BAMU/Examination" status="PASSED">
+         <system-out><![CDATA[13-06-2024T14:36:33 - [TEST_CASE][PASSED] - Test Cases/BAMU/Examination: Test Cases/BAMU/Examination
+
+13-06-2024T14:36:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-06-2024T14:36:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-06-2024T14:36:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-06-2024T14:36:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-06-2024T14:36:34 - [TEST_STEP][PASSED] - navigateToUrl("http://bamu.ac.in/"): Navigate to 'http://bamu.ac.in/' successfully
+
+13-06-2024T14:36:42 - [MESSAGE][PASSED] - Navigate to 'http://bamu.ac.in/' successfully
+
+13-06-2024T14:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_Academics")): Object: 'Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_Academics' is clicked on
+
+13-06-2024T14:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_Academics' is clicked on
+
+13-06-2024T14:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/a_Online Links")): Object: 'Object Repository/Page_Academics Section/a_Online Links' is clicked on
+
+13-06-2024T14:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/a_Online Links' is clicked on
+
+13-06-2024T14:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Section/a_Academics")): Object: 'Object Repository/Page_Online Section/a_Academics' is clicked on
+
+13-06-2024T14:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Section/a_Academics' is clicked on
+
+13-06-2024T14:36:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Academics Section/a_About University")): Object: 'Object Repository/Page_Academics Section/a_About University' is clicked on
+
+13-06-2024T14:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Academics Section/a_About University' is clicked on
+
+13-06-2024T14:36:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_About University/a_Contact")): Object: 'Object Repository/Page_About University/a_Contact' is clicked on
+
+13-06-2024T14:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_About University/a_Contact' is clicked on
+
+13-06-2024T14:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Contact Information/a_N I R F")): Object: 'Object Repository/Page_Contact Information/a_N I R F' is clicked on
+
+13-06-2024T14:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact Information/a_N I R F' is clicked on
+
+13-06-2024T14:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NIRF  Data Capturing System Report/img")): Object: 'Object Repository/Page_NIRF  Data Capturing System Report/img' is clicked on
+
+13-06-2024T14:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NIRF  Data Capturing System Report/img' is clicked on
+
+13-06-2024T14:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NIRF  Data Capturing System Report/p_")): Object: 'Object Repository/Page_NIRF  Data Capturing System Report/p_' is clicked on
+
+13-06-2024T14:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NIRF  Data Capturing System Report/p_' is clicked on
+
+13-06-2024T14:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NIRF  Data Capturing System Report/img_1")): Object: 'Object Repository/Page_NIRF  Data Capturing System Report/img_1' is clicked on
+
+13-06-2024T14:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NIRF  Data Capturing System Report/img_1' is clicked on
+
+13-06-2024T14:36:53 - [TEST_STEP][PASSED] - switchToWindowTitle("NIRF : Data Capturing System Report"): Switched to window with title: 'NIRF : Data Capturing System Report'
+
+13-06-2024T14:36:53 - [MESSAGE][PASSED] - Switched to window with title: 'NIRF : Data Capturing System Report'
+
+13-06-2024T14:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NIRF  Data Capturing System Report/h4_For any feedback regarding NIRF")): Object: 'Object Repository/Page_NIRF  Data Capturing System Report/h4_For any feedback regarding NIRF' is clicked on
+
+13-06-2024T14:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NIRF  Data Capturing System Report/h4_For any feedback regarding NIRF' is clicked on
+
+13-06-2024T14:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NIRF  Data Capturing System Report/p_Please email at nirf.feedbackbamu.ac.in")): Object: 'Object Repository/Page_NIRF  Data Capturing System Report/p_Please email at nirf.feedbackbamu.ac.in' is clicked on
+
+13-06-2024T14:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NIRF  Data Capturing System Report/p_Please email at nirf.feedbackbamu.ac.in' is clicked on
+
+13-06-2024T14:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NIRF  Data Capturing System Report/span_2024 Dr. Babasaheb Ambedkar Marathwada_475171")): Object: 'Object Repository/Page_NIRF  Data Capturing System Report/span_2024 Dr. Babasaheb Ambedkar Marathwada_475171' is clicked on
+
+13-06-2024T14:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NIRF  Data Capturing System Report/span_2024 Dr. Babasaheb Ambedkar Marathwada_475171' is clicked on
+
+13-06-2024T14:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NIRF  Data Capturing System Report/a_Feedback")): Object: 'Object Repository/Page_NIRF  Data Capturing System Report/a_Feedback' is clicked on
+
+13-06-2024T14:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NIRF  Data Capturing System Report/a_Feedback' is clicked on
+
+13-06-2024T14:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Feedback/h2_Feedback Analysis (Academic year-wise)")): Object: 'Object Repository/Page_Feedback/h2_Feedback Analysis (Academic year-wise)' is clicked on
+
+13-06-2024T14:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Feedback/h2_Feedback Analysis (Academic year-wise)' is clicked on
+
+13-06-2024T14:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Feedback/td_Alumni Feedback collected analysed and A_740839")): Object: 'Object Repository/Page_Feedback/td_Alumni Feedback collected analysed and A_740839' is clicked on
+
+13-06-2024T14:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Feedback/td_Alumni Feedback collected analysed and A_740839' is clicked on
+
+13-06-2024T14:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Feedback/td_Student Feedback Action Taken")): Object: 'Object Repository/Page_Feedback/td_Student Feedback Action Taken' is clicked on
+
+13-06-2024T14:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Feedback/td_Student Feedback Action Taken' is clicked on
+
+13-06-2024T14:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Feedback/td_Student Feedback Analysed")): Object: 'Object Repository/Page_Feedback/td_Student Feedback Analysed' is clicked on
+
+13-06-2024T14:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Feedback/td_Student Feedback Analysed' is clicked on
+
+13-06-2024T14:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Feedback/td_Student Feedback Collected")): Object: 'Object Repository/Page_Feedback/td_Student Feedback Collected' is clicked on
+
+13-06-2024T14:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Feedback/td_Student Feedback Collected' is clicked on
+
+13-06-2024T14:36:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-06-2024T14:36:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BAMU/home" time="1.626" classname="Test Cases/BAMU/home" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BAMU/home FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to accept alert&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)&#xa;	at home.run(home:22)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[13-06-2024T14:37:02 - [TEST_CASE][FAILED] - Test Cases/BAMU/home: Test Cases/BAMU/home FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at home.run(home:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+13-06-2024T14:37:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-06-2024T14:37:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-06-2024T14:37:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-06-2024T14:37:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-06-2024T14:37:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-06-2024T14:37:04 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at home.run(home:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+13-06-2024T14:37:04 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at home.run(home:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269624026.png]]
+
+13-06-2024T14:37:04 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at home.run(home:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\HP\\Katalon Studio\\Assesment 1\\Reports\\20240613_143613\\Bamu\\university\\20240613_143613\\1718269624146.png]]]]></system-out>
+         <system-err><![CDATA[13-06-2024T14:37:02 - [TEST_CASE][FAILED] - Test Cases/BAMU/home: Test Cases/BAMU/home FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at home.run(home:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BAMU/Naac" time="21.705" classname="Test Cases/BAMU/Naac" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BAMU/Naac FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to accept alert&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)&#xa;	at Naac.run(Naac:44)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'RUSALABI1', ip: '20.23.0.40', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: driver.version: unknown&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1070)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:1083)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[13-06-2024T14:38:02 - [TEST_CASE][FAILED] - Test Cases/BAMU/Naac: Test Cases/BAMU/Naac FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at Naac.run(Naac:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RUSALABI1', ip: '20.23.0.40', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1070)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:1083)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+13-06-2024T14:38:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-06-2024T14:38:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-06-2024T14:38:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-06-2024T14:38:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-06-2024T14:38:03 - [TEST_STEP][PASSED] - navigateToUrl("http://bamu.ac.in/"): Navigate to 'http://bamu.ac.in/' successfully
+
+13-06-2024T14:38:13 - [MESSAGE][PASSED] - Navigate to 'http://bamu.ac.in/' successfully
+
+13-06-2024T14:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_IQAC (Cell)")): Object: 'Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_IQAC (Cell)' is clicked on
+
+13-06-2024T14:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dr. Babasaheb Ambedkar Marathwada Univ_b44521/a_IQAC (Cell)' is clicked on
+
+13-06-2024T14:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Internal Quality Assurance Cell  Home/a_NAAC-2018")): Object: 'Object Repository/Page_Internal Quality Assurance Cell  Home/a_NAAC-2018' is clicked on
+
+13-06-2024T14:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Internal Quality Assurance Cell  Home/a_NAAC-2018' is clicked on
+
+13-06-2024T14:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NAAC-2018/h2_NAAC")): Object: 'Object Repository/Page_NAAC-2018/h2_NAAC' is clicked on
+
+13-06-2024T14:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NAAC-2018/h2_NAAC' is clicked on
+
+13-06-2024T14:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NAAC-2018/h1_NAAC (National Assessment and Accreditat_cef82c")): Object: 'Object Repository/Page_NAAC-2018/h1_NAAC (National Assessment and Accreditat_cef82c' is clicked on
+
+13-06-2024T14:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NAAC-2018/h1_NAAC (National Assessment and Accreditat_cef82c' is clicked on
+
+13-06-2024T14:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NAAC-2018/ul_Home                                    _3cfd05")): Object: 'Object Repository/Page_NAAC-2018/ul_Home                                    _3cfd05' is clicked on
+
+13-06-2024T14:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NAAC-2018/ul_Home                                    _3cfd05' is clicked on
+
+13-06-2024T14:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NAAC-2018/div_NAAC         Institutional Information _c50838")): Object: 'Object Repository/Page_NAAC-2018/div_NAAC         Institutional Information _c50838' is clicked on
+
+13-06-2024T14:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NAAC-2018/div_NAAC         Institutional Information _c50838' is clicked on
+
+13-06-2024T14:38:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2002")): Object: 'Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2002' is clicked on
+
+13-06-2024T14:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2002' is clicked on
+
+13-06-2024T14:38:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2013")): Object: 'Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2013' is clicked on
+
+13-06-2024T14:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2013' is clicked on
+
+13-06-2024T14:38:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2019")): Object: 'Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2019' is clicked on
+
+13-06-2024T14:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NAAC-2018/p_Certificate of Accreditation 2019' is clicked on
+
+13-06-2024T14:38:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-06-2024T14:38:24 - [MESSAGE][PASSED] - Browser is closed
+
+13-06-2024T14:38:24 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at Naac.run(Naac:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RUSALABI1', ip: '20.23.0.40', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1070)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:1083)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at Script1718269472913.run(Script1718269472913.groovy:44)
+	... 18 more
+)
+
+13-06-2024T14:38:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+13-06-2024T14:38:24 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at Naac.run(Naac:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RUSALABI1', ip: '20.23.0.40', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1070)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:1083)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at Script1718269472913.run(Script1718269472913.groovy:44)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[13-06-2024T14:38:02 - [TEST_CASE][FAILED] - Test Cases/BAMU/Naac: Test Cases/BAMU/Naac FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at Naac.run(Naac:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RUSALABI1', ip: '20.23.0.40', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1070)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getAlert(DriverFactory.java:1083)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BAMU/Research" time="13.138" classname="Test Cases/BAMU/Research" status="PASSED">
+         <system-out><![CDATA[13-06-2024T14:38:24 - [TEST_CASE][PASSED] - Test Cases/BAMU/Research: Test Cases/BAMU/Research
+
+13-06-2024T14:38:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-06-2024T14:38:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-06-2024T14:38:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-06-2024T14:38:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-06-2024T14:38:25 - [TEST_STEP][PASSED] - navigateToUrl("http://bamu.ac.in/Research.aspx"): Navigate to 'http://bamu.ac.in/Research.aspx' successfully
+
+13-06-2024T14:38:31 - [MESSAGE][PASSED] - Navigate to 'http://bamu.ac.in/Research.aspx' successfully
+
+13-06-2024T14:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Research  Dr. Babasaheb Ambedkar Marat_c7191c/a_About Research at BAMU")): Object: 'Object Repository/Page_Research  Dr. Babasaheb Ambedkar Marat_c7191c/a_About Research at BAMU' is clicked on
+
+13-06-2024T14:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Research  Dr. Babasaheb Ambedkar Marat_c7191c/a_About Research at BAMU' is clicked on
+
+13-06-2024T14:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Research at BAMU/a_Prominent Areas of Research")): Object: 'Object Repository/Page_Research at BAMU/a_Prominent Areas of Research' is clicked on
+
+13-06-2024T14:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Research at BAMU/a_Prominent Areas of Research' is clicked on
+
+13-06-2024T14:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Prominent Areas of Research/a_Research Policy and Objectives")): Object: 'Object Repository/Page_Prominent Areas of Research/a_Research Policy and Objectives' is clicked on
+
+13-06-2024T14:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Prominent Areas of Research/a_Research Policy and Objectives' is clicked on
+
+13-06-2024T14:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Research Policy and Objectives/span_Research Policy and Objectives")): Object: 'Object Repository/Page_Research Policy and Objectives/span_Research Policy and Objectives' is clicked on
+
+13-06-2024T14:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Research Policy and Objectives/span_Research Policy and Objectives' is clicked on
+
+13-06-2024T14:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Research Policy and Objectives/strong_For StudentsResearchers")): Object: 'Object Repository/Page_Research Policy and Objectives/strong_For StudentsResearchers' is clicked on
+
+13-06-2024T14:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Research Policy and Objectives/strong_For StudentsResearchers' is clicked on
+
+13-06-2024T14:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Research Policy and Objectives/a_Excellence")): Object: 'Object Repository/Page_Research Policy and Objectives/a_Excellence' is clicked on
+
+13-06-2024T14:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Research Policy and Objectives/a_Excellence' is clicked on
+
+13-06-2024T14:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Research Policy and Objectives/a_Research Excellence")): Object: 'Object Repository/Page_Research Policy and Objectives/a_Research Excellence' is clicked on
+
+13-06-2024T14:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Research Policy and Objectives/a_Research Excellence' is clicked on
+
+13-06-2024T14:38:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-06-2024T14:38:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-06-2024T14:36:20 - [TEST_SUITE][FAILED] - university: Test Cases/BAMU/home FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at home.run(home:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[13-06-2024T14:36:20 - [TEST_SUITE][FAILED] - university: Test Cases/BAMU/home FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at home.run(home:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718269573605.run(TempTestSuite1718269573605.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
